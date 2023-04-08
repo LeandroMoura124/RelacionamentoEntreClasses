@@ -10,7 +10,7 @@ public class App {
         l1[3] = new Lutador("Thiagueta", "Brasileiro", 18, 10, 0, 2, 85.5f, 1.80f );
        
         Luta UEC01 = new Luta();
-        UEC01.marcarLuta(l1[0], l1[3]);
+        UEC01.marcarLuta(l1[0], l1[2]);// Marcando a luta entre Leandro e o Ruan.
         UEC01.lutar();
         l1[0].status();
         l1[3].status();
